@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Hello from taj && Node.js running on EC2 🚀');
+  res.end('Hello from taj && kubernetes Node.js running on EC2 🚀');
 });
 
 server.listen(3000, '0.0.0.0', () => {
